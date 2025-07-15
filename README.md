@@ -47,7 +47,7 @@ Modules in src/myproject/:
 
 * Plots:  
   \[
-  y = \sin(x)
+  y = sin(x)
   \]
 
 * Uses `sinutil.py` module from `src/myproject/`.
