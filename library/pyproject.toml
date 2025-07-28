@@ -8,9 +8,6 @@ dependencies = [
     "matplotlib>=3.10.3",
     "numpy>=2.3.1",
 ]
-[tool.uv]
-#src-layout = true
-
 
 [build-system]
 requires = ["hatchling"]
