@@ -1,4 +1,5 @@
 # /// script
+# requires-python = ">=3.13"
 # dependencies = ["numpy", "matplotlib"]
 # ///
 
@@ -8,7 +9,7 @@ The dependencies required for running the script are specified in the header
 comment above. The script can be run directly using the following command
 
 ```
-uv run standalone_script.py
+uv run main.py
 ```
 
 without the need for any manual package installation.
