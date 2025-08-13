@@ -105,7 +105,7 @@ You should see the plot of a \[y = x^3\] function. You may lock the dependency v
 uv lock
 ```
 
-## uv Tipps
+## uv tips
 
 The project uses a `src/` layout, which is the default for `uv` projects.
 
@@ -130,6 +130,11 @@ uv run main.py
 You can lock your script's dependencies for reproducibility:
 ```bash
 uv lock --script main.py
+```
+
+For a new project, you can quickly setup the project structure with the auxilliary files, including the .git folder, using:
+```bash
+uv init
 ```
 
 For many more [`uv`](https://github.com/astral-sh/uv) tipps and tricks we refer to the official documentation.
